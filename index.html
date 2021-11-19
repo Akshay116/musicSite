@@ -1,0 +1,1884 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>BoomBox</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logfinl.webp" type="image/x-icon">
+    
+    <!-- Material Icons css link -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round"
+        rel="stylesheet" />
+    
+    <!-- Local css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <!-- Making navbar sticky to top -->
+    <div class="navbar-fixed">
+        <nav class="navbar">
+
+            <!-- Left part of navbar contains logo and menu -->
+            <div class="left d-flex">
+                <div class="logo d-flex">
+                    <div class="logo-img">
+                        <a href="index.html"><img src="img/logfinl.webp" alt=""></a>
+                    </div>
+                    <span class="logo-name">
+                        <span class="focus-in-contract-bck">Boom</span><br>
+                        <span class="focus-in-contract-bck">Box</span>
+                       
+                    </span>
+                </div>
+                <span class="link">
+                    <a href="#player">Favourites</a>
+                    <a href="#player">Recommend</a>
+                    <a href="#player">Liked</a>
+                </span>
+            </div>
+
+            <!-- Right part of navbar contains search bar, notification, user pic -->
+            <div class="right d-flex">
+                <!-- Search bar -->
+                <div class="search">
+                    <span class="material-icons-round"> search </span>
+                    <input type="text"  placeholder="discover"/>
+                    <span class="material-icons-round"> mic </span>
+                </div>
+
+                <!-- Notification icon -->
+                <div class="notif">
+                    <i class="material-icons-round"> notifications </i>
+                    <i class="material-icons-round"> notifications_none </i>
+                </div>
+
+                <!-- Profile pic -->
+                <div class="profile-pic">
+                    <img src="img/Prof.jpg" alt="" />
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Container contains Main section and Queue Section -->
+    <div class="container main-container d-flex">
+
+        <!--  Main Section -->
+        <main class="main-section col">
+
+            <!-- Carousel Section -->
+            <header>
+                <div class="carousel ">
+                    <div class="row d-flex">
+                        <div class="carousel-item active">
+                          
+                            <img src="img/Carosl1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carsol2.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carsol3.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carsol4.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+            <!-- End Carousel Section -->
+
+            <!-- Top-Hits -->
+            <section id="top-hits">
+                <!-- Section Title -->
+                <h1 class="section-title">
+                    Top Hits
+                </h1>
+
+                <div class="section-container d-flex">
+                    <!-- Latest Artist -->
+                    <div class="latest-artist d-flex">
+                        <!-- Left part contains image and artist details -->
+                        <div class="left d-flex">
+                            <!-- Image with play pause hover effect -->
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/toph1.png" alt="">
+                                </div>
+                            </a>
+                            <!-- Artist details -->
+                            <div class="details">
+                                <p class="name">Ed Sheeran</p>
+                                <p class="date">April 2018</p>
+                            </div>
+                        </div>
+
+                        <!-- Right part contains duration and dropdown menu -->
+                        <div class="right d-flex">
+                            <!-- Dropdown container-->
+                            <div class="dropdown-container" tabindex="1">
+                                <!-- Dropdown -->
+                                <div class="dropdown">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    play_arrow
+                                                </span>
+                                                <span> Play Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    add
+                                                </span>
+                                                <span> Add to Queue</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    playlist_add
+                                                </span>
+                                                <span> Add to Favourites</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    info
+                                                </span>
+                                                <span> Get Info</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Dropdown icon -->
+                                <div class="menu-icon">
+                                    <span class="material-icons-round">
+                                        more_horiz
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Duration -->
+                            <div class="length">
+                                5.30
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Latest Artist -->
+
+                    <!-- Latest Artist -->
+                    <div class="latest-artist d-flex">
+                        <!-- Left part contains image and artist details -->
+                        <div class="left d-flex">
+                            <!-- Image with play pause hover effectb-->
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/toph2.png" alt="">
+                                </div>
+                            </a>
+                            <!-- Details -->
+                            <div class="details">
+                                <p class="name">WizKid</p>
+                                <p class="date">August 2021</p>
+                            </div>
+                        </div>
+                        <!-- Right part contains duration and dropdown menu -->
+                        <div class="right d-flex">
+                            <!-- Dropdown container -->
+                            <div class="dropdown-container" tabindex="1">
+                                <!-- Dropdown -->
+                                <div class="dropdown">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    play_arrow
+                                                </span>
+                                                <span> Play Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    add
+                                                </span>
+                                                <span> Add to Queue</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    playlist_add
+                                                </span>
+                                                <span> Add to Favourites</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    info
+                                                </span>
+                                                <span> Get Info</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Dropdown icon -->
+                                <div class="menu-icon">
+                                    <span class="material-icons-round">
+                                        more_horiz
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Duration -->
+                            <div class="length">
+                                3.30
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- top-hits -->
+
+                    <!-- Latest Artist -->
+                    <div class="latest-artist d-flex">
+                        <!-- Left part contains image and artist details -->
+                        <div class="left d-flex">
+                            <!-- Image with play pause hover effect -->
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/toph3.jpg" alt="">
+                                </div>
+                            </a>
+                            <!-- Artist details -->
+                            <div class="details">
+                                <p class="name">Beggin</p>
+                                <p class="date">Jan 2021</p>
+                            </div>
+                        </div>
+                        <!-- Right part contains duration and dropdown menu -->
+                        <div class="right d-flex">
+                            <!-- Dropdown container-->
+                            <div class="dropdown-container" tabindex="1">
+                                <!-- Dropdown -->
+                                <div class="dropdown">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    play_arrow
+                                                </span>
+                                                <span> Play Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    add
+                                                </span>
+                                                <span> Add to Queue</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    playlist_add
+                                                </span>
+                                                <span> Add to Favourites</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    info
+                                                </span>
+                                                <span> Get Info</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Dropdown icon -->
+                                <div class="menu-icon">
+                                    <span class="material-icons-round">
+                                        more_horiz
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Duration -->
+                            <div class="length">
+                                4:44
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Latest Artist -->
+
+                    <!-- Latest Artist -->
+                    <div class="latest-artist d-flex">
+                        <!-- Left part contains image and artist details -->
+                        <div class="left d-flex">
+                            <!-- Image with play pause hover effect -->
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/toph4.jpg" alt="">
+                                </div>
+                            </a>
+                            <!-- Artist details -->
+                            <div class="details">
+                                <p class="name">Scintist Coldplay</p>
+                                <p class="date">Nov  2020</p>
+                            </div>
+                        </div>
+                        <!-- Right part contains duration and dropdown menu -->
+                        <div class="right d-flex">
+                            <!-- Dropdown container-->
+                            <div class="dropdown-container" tabindex="1">
+                                <!-- Dropdown -->
+                                <div class="dropdown">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    play_arrow
+                                                </span>
+                                                <span> Play Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    add
+                                                </span>
+                                                <span> Add to Queue</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    playlist_add
+                                                </span>
+                                                <span> Add to Favourites</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    info
+                                                </span>
+                                                <span> Get Info</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Dropdown icon -->
+                                <div class="menu-icon">
+                                    <span class="material-icons-round">
+                                        more_horiz
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Duration -->
+                            <div class="length">
+                                4:13
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Latest Artist -->
+
+                </div>
+                <div class="section-container d-flex">
+                    <!-- Latest Artist -->
+                    <div class="latest-artist d-flex">
+                        <!-- Left part contains image and artist details -->
+                        <div class="left d-flex">
+                            <!-- Image with play pause hover effect -->
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/toph5.jpg" alt="">
+                                </div>
+                            </a>
+                            <!-- Artist details -->
+                            <div class="details">
+                                <p class="name">Prateek Kuhad</p>
+                                <p class="date"> April   2018</p>
+                            </div>
+                        </div>
+
+                        <!-- Right part contains duration and dropdown menu -->
+                        <div class="right d-flex">
+                            <!-- Dropdown container-->
+                            <div class="dropdown-container" tabindex="1">
+                                <!-- Dropdown -->
+                                <div class="dropdown">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    play_arrow
+                                                </span>
+                                                <span> Play Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    add
+                                                </span>
+                                                <span> Add to Queue</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    playlist_add
+                                                </span>
+                                                <span> Add to Favourites</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#player">
+                                                <span class="material-icons-round ">
+                                                    info
+                                                </span>
+                                                <span> Get Info</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Dropdown icon -->
+                                <div class="menu-icon">
+                                    <span class="material-icons-round">
+                                        more_horiz
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Duration -->
+                            <div class="length">
+                                4.30
+                            </div>
+
+                        </div>
+                    </div>
+                    
+            </section>
+            <!-- End Latest Release -->
+
+            <!-- Popular Artists-->
+            <section id="popular-artists">
+                <!-- Section Title -->
+                <h1 class="section-title">
+                    Popular Artists
+                </h1>
+
+                <div class="section-container d-flex">
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist1.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Billie Eilish
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist2.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Mgk
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist3.webp" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Rihana
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist4.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Eminem
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist5.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Arjit Singh
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                    <!-- Popular Artist -->
+                    <div class="popular-artist">
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/partist6.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name">
+                            Lucky Ali
+                        </div>
+                    </div>
+                    <!-- End Popular Artist -->
+
+                </div>
+            </section>
+            <!-- End Popular Artists-->
+
+            <!-- Categories -->
+            <section id="categories">
+                <!-- Section Title -->
+                <h1 class="section-title">   
+                    Playlists
+                </h1>
+
+                 <div class="section-container d-flex">
+                    <!-- Stations Icon -->
+                    <div class="stations d-flex">
+                        <div class="image-container"><img src="img/list1c.webp" alt=""></div>
+                        <div class="name">
+                            Stations
+                            
+                        </div>
+                    </div> 
+
+                    <!-- Category Container -->
+                    <div class="category-container d-flex">
+                        <!-- Category -->
+                        <div class="category">
+                            <div class="name d-flex love">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list2b.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+
+                        <!-- Category -->
+                        <div class="category">
+                            <div class="name d-flex retro">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list3.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+
+                        <!-- Category -->
+                        <div class="category">
+                            <div class="name d-flex chill">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list5.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+
+                        <!-- Category -->
+                        <div class="category">
+                            <div class="name d-flex workout">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list6.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+
+                        <!-- Category -->
+                        <div class="category ">
+                            <div class="name d-flex rock">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list6c.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+
+                        <!-- Category -->
+                        <div class="category">
+                            <div class="name d-flex pop">
+                                
+                            </div>
+
+                            <!-- Image with play pause hover effect -->
+                            <a href="playlist.html">
+                                <div class="image-container play-pause">
+                                    <img src="img/list7.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Category -->
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Categories -->
+
+            <!-- Popular Categories -->
+            <section id="mood">
+                <!-- Section Title -->
+                <h1 class="section-title">For You</h1>
+
+                <div class="section-container d-flex">
+                    <!-- Mood Element -->
+                    <div class="mood-element">
+                        <div class="name d-flex">
+                            
+                        </div>
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/for1a.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Mood Element -->
+
+                    <!-- Mood Element -->
+                    <div class="mood-element">
+                        <div class="name">
+                            
+                        </div>
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/for2.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Mood Element -->
+
+                    <!-- Mood Element -->
+                    <div class="mood-element">
+                        <div class="name">
+                         
+                        </div>
+                        <!-- Image with play pause hover effect -->
+                        <a href="playlist.html">
+                            <div class="image-container play-pause">
+                                <img src="img/for3a.webp" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Mood Element -->
+                </div>
+            </section>
+            <!-- End Popular Categories -->
+
+            <!-- Latest English -->
+            <section id="latest-english">
+                <!-- Section Title -->
+                <h1 class="section-title">Latest English</h1>
+
+                <div class="section-container d-flex">
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish1.webp" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Sorry</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish2.jpg" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Monster</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish3.jpg" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Beliver</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish4.jpg" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Hymm For Weekend</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish5.jpg" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Sunflower</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish6.jpg" alt="">
+                            </div>
+
+                            <div class="details">
+                                <p class="name">Shallow</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- End Latest English -->
+
+            <!-- Latest Hindi -->
+            <section id="latest-hindi">
+                <!-- Section Title -->
+                <h1 class="section-title">Latest Hindi</h1>
+                <div class="section-container d-flex">
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi1.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name">Ambar</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi2.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name">Aainda</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi3.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name">Tum Jab Pass</p>
+                              
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi4.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name"> Chalo Cahlien</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi5.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name">Barish</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Latest song element -->
+
+                    <!-- Latest song element -->
+                    <div class="latest-songs">
+                        <a href="#player">
+
+                            <!-- Image with play pause hover effect -->
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi6.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <p class="name">Senorita</p>
+                               
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- End Latest Hindi -->
+           
+
+        </main>
+        <!--  End Main Section -->
+
+        <!-- Sidebar for Desktop -->
+        <aside class="col">
+
+            <!-- Navbar with queue menu -->
+            <div class="navbar-fixed d-flex">
+                <!-- left  -->
+                <div class="left">Playing</div>
+            
+                <!-- Right part contains queue dropdown menu -->
+                <div class="right">
+            
+                    <!-- Dropdown container -->
+                    <div class="dropdown-container queue-menu" tabindex="1">
+                        Queue
+            
+                        <!-- down arrow icon -->
+                        <span class="material-icons-round">
+                            keyboard_arrow_down
+                        </span>
+            
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                            <ul class="list">
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round ">
+                                            queue_music
+                                        </span>
+                                        <span>Add Playlists</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round ">
+                                            recent_actors
+                                        </span>
+                                        <span>Recent</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round ">
+                                            favorite
+                                        </span>
+                                        <span> Favourites</span>
+                                    </a>
+                                </li>
+                               
+            
+                            </ul>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar with queue menu -->
+            
+            <!-- Sidebar main i.e. Song container -->
+            <div class="sidebar-main">
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">01</div>
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi5.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Masti</div>
+                             <div class="duration">4.30</div>
+                        </div>
+                    </div>
+            
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">02</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish6.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Shallow</div>
+                            <div class="duration">5.10</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">03</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish5.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Sunflower</div>
+                            <div class="duration">3.47</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="current-playing">
+                            <span class="material-icons-round">
+                                bar_chart
+                            </span>
+                        </div>
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/toph2.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">rockstar</div>
+                            <div class="duration">4.50</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">04</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause" tabindex="1">
+                                <img src="img/senorita.webp" alt="">
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name"> Senorita</div>
+                            <div class="duration">3.13</div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">05</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi4.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Chalo Chalien</div>
+                            <div class="duration">5.15</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">06</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi6.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">ZNMD</div>
+                            <div class="duration">3.45</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">07</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/list5.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">DAvid</div>
+                            <div class="duration">5.0</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">02</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish3.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">thunder</div>
+                            <div class="duration">4.13</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">08</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lenglish2.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Monster</div>
+                            <div class="duration">3.30</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">09</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi3.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Tum jab pas</div>
+                            <div class="duration">3.33</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">10</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/list2b.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Green</div>
+                            <div class="singer-name">5.15</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Song -->
+            
+                <!-- Song -->
+                <div class="song d-flex">
+            
+                    <!-- Left part contains image and song details -->
+                    <div class="left d-flex">
+                        <div class="count">11</div>
+            
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/lhindi1.jpg" alt="">
+                            </div>
+                        </a>
+                        <div class="name d-flex">
+                            <div class="song-name">Ambar</div>
+                            <div class="duration">6.30</div>
+                        </div>
+            
+                    </div>
+                    <div class="right">
+                        <!-- used checkbox for toggling -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- End Sidebar main -->
+
+        </aside>
+        <!-- End Sidebar -->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Footer i.e. Player  -->
+    <!-- queue section is integrated in bottom player for mobile devices -->
+    <footer id="player">
+        <!-- close icon for mobile devices to close bottom player -->
+        <a class="material-icons-round close" href="">
+            close
+        </a>
+
+        <!-- Container -->
+        <div class="container d-flex">
+
+            <!-- Mobile Queue  -->
+            <div class="queue">
+                <!-- Navbar with queue menu -->
+                <div class="navbar-fixed d-flex">
+                    <!-- left  -->
+                    <div class="left">Playing</div>
+
+                    <!-- Right part contains queue dropdown menu -->
+                    <div class="right">
+
+                        <!-- Dropdown container -->
+                        <div class="dropdown-container queue-menu" tabindex="1">
+                            Queue
+
+                            <!-- down arrow icon -->
+                            <span class="material-icons-round">
+                                keyboard_arrow_down
+                            </span>
+
+                            <!-- dropdown -->
+                            <div class="dropdown">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#player">
+                                            <span class="material-icons-round ">
+                                                queue_music
+                                            </span>
+                                            <span> Add Playlists</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#player">
+                                            <span class="material-icons-round ">
+                                                library_music
+            
+                                            </span>
+                                            <span>Recent</span>
+                                           
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#player">
+                                            <span class="material-icons-round ">
+                                                favorite
+                                            </span>
+                                            <span> Favourites</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar with queue menu -->
+
+                <!-- Sidebar main i.e. Song container -->
+                <div class="sidebar-main">
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">01</div>
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lhindi5.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Masti</div>
+                                <div class="duration">4.30</div>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">02</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lenglish6.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Shallow</div>
+                                <div class="duration">5.10</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">03</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lenglish5.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Sunflower</div>
+                                <div class="duration">3.47</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="current-playing">
+                                <span class="material-icons-round">
+                                    bar_chart
+                                </span>
+                            </div>
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/toph2.png" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Rockstar</div>
+                                <div class="duration">4.30</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">01</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause" tabindex="1">
+                                    <img src="img/senorita.webp" alt="">
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name"> Senorita</div>
+                                <div class="duration">3.13</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">02</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lhindi4.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Chalo Chalien</div>
+                                <div class="duration">5.15</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">03</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/list5.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">ZNMD</div>
+                                <div class="duration">3.45</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">01</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lenglish3.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">imagine dragons</div>
+                                <div class="duration">4.13</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">02</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lenglish2.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Monster</div>
+                                <div class="duration">3.30</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">03</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lhindi2.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Aainda</div>
+                                <div class="duration">3.33</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">01</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/list2b.jpg" alt="" />
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Green</div>
+                                <div class="duration">6.10</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">02</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lenglish4.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name">Coldplay</div>
+                                <div class="duration">5.12</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Song -->
+
+                    <!-- Song -->
+                    <div class="song d-flex">
+
+                        <!-- Left part contains image and song details -->
+                        <div class="left d-flex">
+                            <div class="count">03</div>
+
+                            <a href="#player">
+                                <div class="image-container play-pause">
+                                    <img src="img/lhindi1.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="name d-flex">
+                                <div class="song-name"> Ambar</div>
+                                <div class="duration">6.30</div>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <!-- used checkbox for toggling -->
+                            <input type="checkbox" class="toggle-button">
+                            <div class="favourite">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Sidebar main -->
+
+            </div>
+            <!--End Mobile Queue  -->
+
+            <!-- Bottom Player -->
+            <div class="player d-flex">
+
+                <!-- Left part of player -->
+                <div class="song-info left d-flex">
+                    <!-- thumb -->
+                    <div class="image-container"><img src="img/Prof.jpg" alt=""></div>
+
+                    <!-- song with marquee -->
+                    <div class="song-details">
+                        <marquee behavior=scroll direction="left" scrollamount="3">EverGreen</marquee>
+                        <p>ColdPlay</p>
+                    </div>
+
+                    <!-- favourite and other controls -->
+                    <div class="make-favourite d-flex">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite">
+                        </div>
+                        <span class="material-icons-round">block</span>
+                    </div>
+
+                </div>
+                <!-- End Left part of player -->
+
+                <!-- Middle part of player -->
+                <div class="main-controls d-flex center">
+
+                    <!-- change song  controls -->
+                    <div class="top-controls d-flex">
+                        <span class="material-icons-round">shuffle</span>
+                        <span class="material-icons-round">skip_previous</span>
+                        <span class="material-icons-round">pause</span>
+                        <span class="material-icons-round">skip_next</span>
+                        <span class="material-icons-round">repeat</span>
+                    </div>
+
+                    <!-- audio seek bar using range input element -->
+                    <div class="bottom-controls d-flex">
+                        <div class="duration">1:24</div>
+                        <div class="progress d-flex"><input type="range"></div>
+                        <div class="duration">4:23</div>
+                    </div>
+
+                </div>
+                <!-- End Middle part of player -->
+
+                <!-- Right part of player -->
+                <div class="right-control right d-flex">
+
+                    <!-- Playlist, volume and other controls -->
+                    <span class="material-icons-round">playlist_play</span>
+                    <span class="material-icons-round">speaker</span>
+                    <span class="material-icons-round">volume_up</span>
+                    <div class="progress d-flex">
+                        <input type="range">
+                    </div>
+                    <span class="material-icons-round">open_in_full</span>
+                </div>
+                <!-- End Right part of player -->
+
+            </div>
+            <!--End Bottom Player -->
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+</html>
